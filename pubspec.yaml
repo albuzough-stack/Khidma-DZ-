@@ -1,0 +1,35 @@
+name: khidmadz
+description: Khidma DZ - خدمات محلية (Final)
+publish_to: "none"
+
+environment:
+  sdk: ">=2.18.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  firebase_core: ^2.10.0
+  firebase_auth: ^4.6.0
+  google_sign_in: ^6.1.4
+  cloud_firestore: ^4.5.0
+  firebase_storage: ^11.1.0
+  google_mlkit_text_recognition: ^0.8.0
+  google_maps_flutter: ^2.4.0
+  geolocator: ^9.0.2
+  provider: ^6.0.5
+  intl: ^0.18.0
+  flutter_rating_bar: ^4.0.1
+  image_picker: ^0.8.7
+  http: ^0.13.6
+  url_launcher: ^6.1.9
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/logo1.png
+    - assets/logo2.png
